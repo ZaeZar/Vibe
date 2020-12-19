@@ -1,0 +1,27 @@
+@import "../const.css";
+
+.bottombar{
+    width: 100%;
+    /*background-color: var(--primaryColor);*/
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    .bottombar{
+        height: 3rem;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .bottombar{
+        height: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .bottombar{
+        height: 5rem;
+    }
+}

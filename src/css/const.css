@@ -1,0 +1,11 @@
+:root{
+    --primaryColor:#393E46; /* background of most list items */
+    --primaryColorDark:#222831; /* background of most giant containers */
+    --accentColor:#C05555; /* buttons and other small UI color */
+    --lightColor:#eeeeee; /* text color */
+
+    --remSize:16px; /* root element font size */
+    --breakPointLarge: 1100px;
+    --breakPointMedium: 700px;
+
+}
